@@ -1,6 +1,4 @@
 
-
-
 body {
   background: url("../img/fabric.png");
   font-family: 'Cardo', serif;
@@ -177,6 +175,75 @@ nav a:active {
 nav a:focus {
   border: 1px dotted #000;
 }
+
+/***************************************Dynamic Screens*************************************************/
+
+/*Tablet Screens*/
+
+@media screen and (max-width: 790px) {
+    section.grid_12 {
+      width: 100%;
+    }
+    section.grid_8 {
+      width: 100%;
+    }
+
+    section.grid_7 {
+      width: 58%;
+    }
+
+    section.grid_5 {
+      width: 41%;
+    }
+
+    section.grid_4 {
+      width: 48%;
+    }
+    section.grid_6 {
+      width: 48%;
+    }
+
+     section.grid_12 nav ul li {
+      float: none;
+      display: inline-block;
+      font-size: 1em;
+    }
+
+
+}
+
+/*Mobile Screens*/
+
+@media screen and (max-width: 480px) {
+
+  section.grid_7 {
+      width: 100%;
+    }
+
+    section.grid_5 {
+      width: 100%;
+    }
+
+    section.grid_4 {
+      width: 100%;
+    }
+
+    section.grid_6 {
+      width: 100%;
+    }
+    
+    section.grid_12 nav ul li {
+      float: none;
+      font-size: 1em;
+      display: inline-block;
+    }
+
+    header li {
+      font-size: .9em;
+    }
+
+}
+
 
 
 /* Show Grid */
